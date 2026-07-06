@@ -1,0 +1,2 @@
+# No external dependencies — this project uses only Python's standard library
+# (hashlib, os, itertools, string, time). Just make sure you have Python 3.9+.
