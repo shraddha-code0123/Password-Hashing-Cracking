@@ -1,17 +1,4 @@
-"""
-Brute-Force Attack Demo
-----------------------------
-Unlike a dictionary attack (which tries a curated list of likely
-passwords), a brute-force attack tries EVERY possible combination of
-characters up to a given length. It always works eventually — the
-question is only how much time it takes.
 
-This script deliberately uses a SHORT password and SMALL character set
-so it finishes in a few seconds and you can watch the search space grow.
-
-ETHICS: As with the dictionary attack demo, this only ever targets a
-hash we generate ourselves in this same script, for learning purposes.
-"""
 
 import hashlib
 import itertools
