@@ -1,18 +1,4 @@
-"""
-Dictionary Attack Demo
---------------------------
-A dictionary attack tries a list of likely passwords (a "wordlist")
-against a target hash, instead of guessing randomly. It works because
-so many real passwords are common, reused, or predictable.
 
-IMPORTANT — ETHICS & SCOPE:
-This script only ever attacks a hash that WE generate ourselves in this
-same program, purely to demonstrate the concept. Never run password
-cracking tools against accounts, systems, or hashes you don't own or
-don't have explicit written permission to test — that is illegal in
-most jurisdictions (unauthorized access) even if the tools are "just"
-educational.
-"""
 
 import hashlib
 import time
