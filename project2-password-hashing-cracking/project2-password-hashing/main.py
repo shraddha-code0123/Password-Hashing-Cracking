@@ -1,9 +1,3 @@
-"""
-Password Cracking & Hashing — Main Menu
--------------------------------------------
-Run this to interactively explore hashing, salting, dictionary
-attacks, and brute-force attacks from one place.
-"""
 
 import hashing_basics
 import dictionary_attack
