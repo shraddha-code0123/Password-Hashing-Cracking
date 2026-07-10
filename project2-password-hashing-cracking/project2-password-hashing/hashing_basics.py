@@ -1,22 +1,4 @@
-"""
-Hashing Basics — Salted vs Unsalted Passwords
--------------------------------------------------
-Passwords should NEVER be stored in plain text. Instead, systems store
-a HASH of the password. But a plain hash isn't enough on its own —
-this module shows why "salting" matters.
 
-UNSALTED hashing problem:
-    If two users both pick the password "123456", their stored hashes
-    will be IDENTICAL. An attacker with a precomputed table of common
-    password hashes (a "rainbow table") can crack both instantly just
-    by looking up the hash.
-
-SALTED hashing fix:
-    A random value (the "salt") is generated per-user and combined with
-    the password BEFORE hashing. Now identical passwords produce
-    DIFFERENT hashes, and precomputed rainbow tables become useless —
-    the attacker must crack each hash individually.
-"""
 
 import hashlib
 import os
